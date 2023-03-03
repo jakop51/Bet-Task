@@ -4,7 +4,6 @@ import java.util.Locale;
 
 public class Main {
 
-    /*
     public static double getPercentOfEmployedStudent(Student[] studentsInfo) {
         double percent;
         double employers = 0;
@@ -24,9 +23,7 @@ public class Main {
         // Write code above this line
     }
 
-
     public static void main(String[] args) {
-
 
         Student[] arr = new Student[3];
         Student s1 = new Student();
@@ -52,22 +49,6 @@ public class Main {
         arr[2] = s3;
 
         System.out.println("Percent is " + getPercentOfEmployedStudent(arr));
-        }*/
-    public static void main(String[] args) {
-        System.out.println();
-        User a = new User("Nikita", "Sachik", 23);
-
-        String text = null;
-        text = text.toLowerCase();
-
-        char[] arr = text.toCharArray();
-        for(int i = 0; i < arr.length; i++)
-        {
-            if(arr[i] == 'r' || arr[i] == 'R')
-                arr[i] = '!';
-            System.out.print(arr[i]);
-        }
-
     }
 
 
