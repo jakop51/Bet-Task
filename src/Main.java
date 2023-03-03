@@ -24,31 +24,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
-        Student[] arr = new Student[3];
-        Student s1 = new Student();
-        Student s2 = new Student();
-        Student s3 = new Student();
-        s1.age = 30;
-        s1.isEmployed = true;
-        s1.firstName = "Alina";
-        s1.lastName = "Ivanova";
-
-        s2.age = 26;
-        s2.isEmployed = false;
-        s2.firstName = "Ivan";
-        s2.lastName = "Petrov";
-
-        s3.age = 35;
-        s3.isEmployed = true;
-        s3.firstName = "Irina";
-        s3.lastName = "Stetsenko";
-
-        arr[0] = s1;
-        arr[1] = s2;
-        arr[2] = s3;
-
-        System.out.println("Percent is " + getPercentOfEmployedStudent(arr));
+        System.out.println("Hello ");
     }
 
 
