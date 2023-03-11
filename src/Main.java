@@ -28,12 +28,9 @@ public class Main {
             print(person);
         }
     }
-
     public static void print(Human human) {
         human.printInfo();
     }
-
-
 }
 
 
