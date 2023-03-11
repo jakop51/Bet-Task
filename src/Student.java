@@ -1,6 +1,4 @@
-public class Student {
-    String firstName;
-    String lastName;
-    int age;
+public class Student extends Human {
+
     boolean isEmployed;
 }
