@@ -1,18 +1,29 @@
-public class User {
-    private String firstName;
-    private String lastName;
+public class User extends Human{
     private String email;
-    private int age;
 
-    public User(String firstName, String lasrName, int age)
+    public User(String firstName, String lastName, int age)
     {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
 
     }
 
-    public User(String firstName, String lasrName, int age, String email)
+    public User(String firstName, String lastName, int age, String email)
     {
-
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.email = email;
     }
+
+    @Override
+    public void printInfo() {
+        System.out.print( email + " ");
+        super.printInfo();
+    }
+
+
 
     public String getFirstName() {
         return firstName;
